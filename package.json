@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.54.5"
+  },
+  "name": "firstbootstrappage",
+  "description": "My first bootstrap page",
+  "version": "1.0.0",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build",
+    "watch": "sass --watch src/assets/scss:../dist/css & live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jenfer93/FirstBootstrapPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jenfer93/FirstBootstrapPage/issues"
+  },
+  "homepage": "https://github.com/Jenfer93/FirstBootstrapPage#readme"
+}
+
+
